@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gn.mst">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+    <application
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/bus1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bus1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MsecBus"
+        android:hardwareAccelerated="true"
+
+
+
+
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity
+            android:hardwareAccelerated="false"
+            android:name=".SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+
+
+
+            android:theme="@style/Theme.MsecBus.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:hardwareAccelerated="false"
+            android:name=".HomeActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:largeHeap="true"
+            android:name=".MainActivity"
+            android:hardwareAccelerated="false"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+    </application>
+
+</manifest>
