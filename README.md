@@ -3,5 +3,18 @@ Bus Tracking App
 
 To Download Apk 
 APK Folder
+<table>
+  <tr>
+    <td>Splash Screen Page</td>
+     <td>Home Screen</td>
+     <td>Maps Screen</td>
+  </tr>
+  <tr>
+    <td><img src="pics/Bus2.jpeg" width=270 height=480></td>
+    <td><img src="pics/BUS.jpeg" width=270 height=480></td>
+    <td><img src="screenshots/Screenshot_1582745139.png" width=270 height=480></td>
+  </tr>
+ </table>
 
-![BUS](https://user-images.githubusercontent.com/58388494/147410247-672f61b2-9ffb-4645-bb8f-6bef2929f2d1.jpeg)
+
+
