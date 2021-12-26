@@ -1,7 +1,7 @@
 # MSTRACKER
 Bus Tracking App
 
-To Download Apk 
+To Download App for
 APK Folder
 <table>
   <tr>
