@@ -13,9 +13,9 @@ MSEC APK
   </tr>
   <tr>
      <td><img src="pics/splash.jpeg" width=270 height=480></td>
-    <td><img src="pics/login.jpeg" width=270 height=480></td>
-    <td><img src="pics/home.jpeg" width=270 height=480></td>
-    <td><img src="pics/map.jpeg" width=270 height=480></td>
+    <td><img src="pics/login.png" width=270 height=480></td>
+    <td><img src="pics/home.png" width=270 height=480></td>
+    <td><img src="pics/map.png" width=270 height=480></td>
 
   </tr>
  </table>
