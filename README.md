@@ -2,7 +2,7 @@
 Bus Tracking App
 
 To Download App for
-APK Folder
+MSEC APK 
 <table>
   <tr>
     <td>Splash Screen Page</td>
